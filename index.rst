@@ -11,11 +11,11 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
 ----------------
 **URL** ``http://dev.boxme.vn/api/product-sdk``
 
-**Method** ``POST``
+**Method ``POST``
 
-**Input Params**
+**Input Params
 *  ``secret_key: Mã key bảo mật Boxme``
-**Input Body**
+**Input Body
 
 ``
 {
