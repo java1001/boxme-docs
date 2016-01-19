@@ -9,17 +9,15 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
 
 1. Tạo sản phẩm:
 ----------------
-URL ```http://dev.boxme.vn/api/product-sdk```
-^^^
-Method ```POST```
-^^^^^^
-Input Params
-^^^^^^^^^^^^
-*  ```secret_key: Mã key bảo mật Boxme```
-Input Body
-^^^^^^^^^^
+**URL** ``http://dev.boxme.vn/api/product-sdk``
 
-```
+**Method** ``POST``
+
+**Input Params**
+*  ``secret_key: Mã key bảo mật Boxme``
+**Input Body**
+
+``
 {
   "ExternalUrl": "",               #Link bài viết về sản phẩm			
   "BrandName": "",                 #Tên thương hiệu			
@@ -44,7 +42,7 @@ Input Body
   "ProductTags": "haatz,rewq",      #Tag (nhãn sản phẩm) tag1,tag2,…			
   "ProductImages": ""              #Link hình sản phẩm			
 }
-```
+``
  
 
 
