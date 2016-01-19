@@ -15,7 +15,7 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
 
 **Input Params**
  ``secret_key: Mã key bảo mật Boxme``
-**Input Body
+**Input Body**
 
 ``
 {
