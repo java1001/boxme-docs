@@ -18,7 +18,8 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
  
 **Input Body**
 
-```{
+```javascript
+{
   "ExternalUrl": "",               #Link bài viết về sản phẩm			
   "BrandName": "",                 #Tên thương hiệu			
   "Description": "May hut mui",     #Mô tả về sản phẩm			
