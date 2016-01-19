@@ -14,14 +14,14 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
 **Method** ``POST``
 
 **Input Params**
- ``secret_key: Mã key bảo mật Boxme``
+- ``secret_key: Mã key bảo mật Boxme``
+ 
 **Input Body**
 
-``
-{
+``{
   'ExternalUrl': '',               #Link bài viết về sản phẩm			
   'BrandName': '',                 #Tên thương hiệu			
-  'Description': 'May hut mui',      #Mô tả về sản phẩm			
+  'Description': 'May hut mui',    #Mô tả về sản phẩm			
   'QuantityUnit': '1',             #Đơn vị tính 1 sản phẩm ( 1 : cái, 2 : hộp)			
   'BasePrice': 766000,             #Giá gốc của sản phẩm			
   'ManufactureBarcode': '',        #Mã barcode của nhà sản xuất			
@@ -39,10 +39,9 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
   'Quantity': 2,                   #Số lượng sản phẩm			
   'SalePrice': 799000,             #Giá bán của sản phẩm			
   'InventoryId': 21,               #ID của kho hàng			
-  'ProductTags': 'haatz,rewq',      #Tag (nhãn sản phẩm) tag1,tag2,…			
+  'ProductTags': 'haatz,rewq',     #Tag (nhãn sản phẩm) tag1,tag2,…			
   'ProductImages': ''              #Link hình sản phẩm			
-}
-``
+}``
  
 
 
