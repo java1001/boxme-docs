@@ -18,7 +18,7 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
  
 **Input Body**
 
-``{
+```{
   'ExternalUrl': '',               #Link bài viết về sản phẩm			
   'BrandName': '',                 #Tên thương hiệu			
   'Description': 'May hut mui',    #Mô tả về sản phẩm			
@@ -41,7 +41,7 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
   'InventoryId': 21,               #ID của kho hàng			
   'ProductTags': 'haatz,rewq',     #Tag (nhãn sản phẩm) tag1,tag2,…			
   'ProductImages': ''              #Link hình sản phẩm			
-}``
+}```
  
 
 
