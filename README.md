@@ -42,7 +42,7 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
   "InventoryId": 21,               #ID của kho hàng			
   "ProductTags": "haatz,rewq",     #Tag (nhãn sản phẩm) tag1,tag2,…			
   "ProductImages": ""              #Link hình sản phẩm	
-}```
+}
  
 
 
