@@ -43,6 +43,9 @@ API tạo thông tin sản phẩm: Tên sản phẩm, Category, Model, Giá, Hì
   "ProductTags": "haatz,rewq",     //Tag (nhãn sản phẩm) tag1,tag2,…			
   "ProductImages": ""              //Link hình sản phẩm	
 }
+
+**Output**
+``Thành công sẽ trả thông tin  status = 200, thất bại  status = 422,403,500``
  
 
 
